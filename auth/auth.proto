@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package examples.blog.service.auth;
+package auth;
 
 service Auth {
     rpc BeforeCreateAuth(BeforeCreateAuthRequest) returns (BeforeCreateAuthResponse) {}
